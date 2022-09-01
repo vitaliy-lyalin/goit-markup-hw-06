@@ -152,6 +152,10 @@ img {
 }
 
 /* Шапка сайту */
+.page-header {
+  background-color: var(--white-color);
+  border-bottom: 1px solid #ececec;
+}
 .main {
   display: flex;
   align-items: center;
@@ -203,10 +207,7 @@ img {
 .nav-contacts .item:not(:last-child) {
   margin-right: 30px;
 }
-.page-header {
-  background-color: var(--white-color);
-  border-bottom: 1px solid #ececec;
-}
+
 .nav-site .link {
   color: var(--secondary-text-color);
   font-weight: 500;
